@@ -1,18 +1,18 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — barser.ru</title>
+<title>{% block title %}welcome{% endblock %} — barser.ru</title>
 <body>
   <header>
-    <h1>barser.ru</h1>
+    <h1>Баранов Сергей Владимирович</h1>
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
+          %}><a href="{{ '/'|url }}">Главная</a></li>
         {% for href, title in [
-          ['/blog', 'Blog'],
-          ['/projects', 'Projects'],
-          ['/about', 'About']
+          ['/blog', 'Блог'],
+          ['/projects', 'Проекты'],
+          ['/about', 'Обо мне']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
             %}><a href="{{ href|url }}">{{ title }}</a></li>
@@ -24,6 +24,6 @@
     {% block body %}{% endblock %}
   </div>
   <footer>
-    &copy; Copyright 2020 by Сергей Баранов.
+    &copy; Copyright 2017 - 2020 by Сергей Баранов.
   </footer>
 </body>
