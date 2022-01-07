@@ -7,19 +7,26 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Домашняя страничка на реконструкции.
-        </p>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        {/*<p>*/}
+        {/*  Домашняя страничка на реконструкции.*/}
+        {/*</p>*/}
+        {/*<p>*/}
+        {/*  Edit <code>src/App.js</code> and save to reload.*/}
+        {/*</p>*/}
+        {/*<a*/}
+        {/*  className="App-link"*/}
+        {/*  href="https://reactjs.org"*/}
+        {/*  target="_blank"*/}
+        {/*  rel="noopener noreferrer"*/}
+        {/*>*/}
+        {/*  Learn React*/}
+        {/*</a>*/}
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="http://barser.ru"
           rel="noopener noreferrer"
-        >
-          Learn React
+          >
+          barser.ru
         </a>
       </header>
     </div>
